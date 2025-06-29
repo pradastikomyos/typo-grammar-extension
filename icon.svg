@@ -1,0 +1,50 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="penGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGradient)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- Paper/document background -->
+  <rect x="25" y="30" width="55" height="70" rx="4" fill="white" opacity="0.95"/>
+  
+  <!-- Text lines on paper -->
+  <line x1="32" y1="42" x2="65" y2="42" stroke="#ddd" stroke-width="2"/>
+  <line x1="32" y1="50" x2="70" y2="50" stroke="#ddd" stroke-width="2"/>
+  <line x1="32" y1="58" x2="62" y2="58" stroke="#ddd" stroke-width="2"/>
+  <line x1="32" y1="66" x2="68" y2="66" stroke="#ddd" stroke-width="2"/>
+  <line x1="32" y1="74" x2="60" y2="74" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Pen -->
+  <g transform="rotate(-30 75 55)">
+    <!-- Pen body -->
+    <rect x="70" y="45" width="25" height="6" rx="3" fill="url(#penGradient)"/>
+    <!-- Pen tip -->
+    <polygon points="70,46 65,48 70,50" fill="#333"/>
+    <!-- Pen clip -->
+    <rect x="88" y="44" width="2" height="8" rx="1" fill="silver"/>
+  </g>
+  
+  <!-- Sparkle effects -->
+  <g fill="white" opacity="0.8">
+    <circle cx="45" cy="25" r="1.5"/>
+    <circle cx="85" cy="35" r="1"/>
+    <circle cx="95" cy="70" r="1.5"/>
+    <circle cx="35" cy="85" r="1"/>
+    <circle cx="25" cy="65" r="1"/>
+  </g>
+  
+  <!-- Check mark -->
+  <g transform="translate(75, 75)">
+    <circle cx="0" cy="0" r="12" fill="#4CAF50" opacity="0.9"/>
+    <path d="M-4,-1 L-1,3 L5,-4" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
