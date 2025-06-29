@@ -1,3 +1,11 @@
+<!-- Logo Project Stack -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" width="60" alt="JavaScript logo" />
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" width="60" alt="HTML logo" />
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/json/json.png" width="60" alt="JSON logo" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="90" alt="Google logo" />
+</p>
+
 # ✨ Grammar Fixer Chrome Extension ✨
 
 A simple, fast, and user-friendly Chrome extension for quick grammar and typo correction using Google Gemini 2.0 Flash AI. Perfect for anyone needing instant text refinement without login hassles!
