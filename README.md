@@ -146,6 +146,27 @@ Fix grammar, spelling, and typos in this Indonesian/English text. Return only th
 6.  **Fix Grammar**: Paste your text, click "Fix Grammar" (or Ctrl+Enter), and get your corrected text!
 7.  **Copy Result**: Click "Copy Result" (or Ctrl+C) to copy the corrected text to your clipboard.
 
+## Cara Install & Pakai (Manual)
+
+1. **Clone repo ini** atau download sebagai ZIP:
+   - Clone:  
+     ```bash
+     git clone https://github.com/pradastikomyos/typo-grammar-extension.git
+     ```
+   - Atau download ZIP, lalu extract ke folder mana saja.
+
+2. **Buka Google Chrome**
+
+3. Masuk ke halaman `chrome://extensions/`
+
+4. Aktifkan **Developer mode** (pojok kanan atas)
+
+5. Klik **Load unpacked**
+
+6. Pilih folder hasil clone/extract repo ini
+
+7. Extension siap digunakan! Ikon akan muncul di pojok kanan atas Chrome.
+
 ---
 
 Made with ❤️ and powered by Google Gemini AI.
