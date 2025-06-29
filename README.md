@@ -169,4 +169,9 @@ Fix grammar, spelling, and typos in this Indonesian/English text. Return only th
 
 ---
 
+☕ Kalau ngebantu, dukung aku biar bisa upload ke Chrome Web Store (biayanya $5):
+ https://saweria.co/prdastikomyos
+
+Makasih banyak, semoga bermanfaat! 🙌
+
 Made with ❤️ and powered by Google Gemini AI.
